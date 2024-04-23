@@ -11,8 +11,11 @@
   justify-content: space-between;
   background-color: #fff;
   padding: 5px 20px;
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 60px;
 }
 .logo {
   cursor: pointer;
@@ -60,4 +63,41 @@ li a:hover {
   border: none;
   color: #fff;
   padding: 5px;
+}
+
+
+.active{
+  transition:0.5s ;
+  -webkit-transition:0.5s ;
+  -moz-transition:0.5s ;
+  -ms-transition:0.5s ;
+  -o-transition:0.5s ;
+  box-shadow: #bb8493 0px 0px 15px 4px;
+  background-color: #bb8493;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.list{
+  width: 100%;
+  height: calc(100vh - 40px);
+  display: flex !important;
+  align-items: center;
+  list-style: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background-color: #f7f0f0;
+  justify-content: center;
+  flex-direction: column;
+  color: #704264;
+
+
+
 }

@@ -1,0 +1,126 @@
+
+.container_about{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    
+ 
+  }
+
+
+
+
+
+
+.about-us{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-about-us{
+      text-align: center;
+      width: 90%;
+      h1{
+        color: #720577;
+            font-size: 3vw;
+            font-weight: 700;
+            line-height: 1.2;
+            font-family: 'Poppins', sans-serif;
+            text-shadow: #958296 1px 0 10px;
+      }
+       
+      
+      p{
+       color: #bb8493;
+        font-weight: 400;
+        margin-top: 20px;
+       
+      }
+    
+}
+  }
+  .container_about .img-text-about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+   
+  }
+  .container_about .img-text-about .img-about{
+    width: 40%;
+    img{
+      width: 100%;
+    }
+  }
+  .container_about .img-text-about .text-about{
+    width:50%;
+    text-align: start;
+    h2{
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 1.2;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: #460449 1px 0 10px;
+        }
+    p{
+     
+        color: #bb8493;
+        font-weight: 400;
+        margin-top: 20px;
+       
+  }
+  }
+  .text-about .about_btn  {
+    background-color: #bb8493;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;   
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;   
+    -ms-transition: 0.4s ease;        
+    -o-transition: 0.4s ease;
+  }
+  
+  
+  
+  .text-about .about_btn:hover {
+      transition: 1s;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      -ms-transition: 1s;
+      -o-transition: 1s;
+      box-shadow: #806e73ca 0px 0px 10px 0px;
+      background-color: #bb8493;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      border: none;
+      color: #fff;
+     
+  }
+  @media (max-width: 768px){
+   .container_about .img-text-about .img-about{
+      width: 90%;
+    }
+    .container_about .img-text-about .text-about{
+      width: 90%;
+    }
+  }

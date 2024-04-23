@@ -5,6 +5,7 @@
     color: #704264; 
     margin-top: 30px;
     text-shadow: #FC0 1px 0 10px;
+    margin-top:10vh;
 }
 
 
@@ -84,11 +85,11 @@
     right: 0;      
     z-index: 1;
   }
-  
+/*   
   .card__arc path {
     fill: var(--surface-color);
     d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
-  }       
+  }        */
   
   .card:hover .card__header {
     transform: translateY(0);

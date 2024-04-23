@@ -1,10 +1,13 @@
 import React from 'react'
-import './css/ContactUs.css'
+import './css/contact.css'
+import Contact from './Contact'
 
 const ContactUs = () => {
   return (
     <>
-      <h1>contact us</h1>
+    <Contact/> 
+
+    
     </>
   )
 }

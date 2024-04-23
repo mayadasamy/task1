@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:60px auto;
+    height: 100vh;
+
+
+
+
+
+
+    .card__image{
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+
+
+    .card__status{
+        font-size: 20px;
+        font-weight: 600;
+        color: #992f7d;
+        text-shadow: #c56da2 1px 0 10px;
+    }
+    .card__description{
+
+        font-size: 20px;
+        font-weight: 500;
+        color: #696467;
+       
+
+
+    }
+
+    .card_button{
+        margin-top: 20px;
+        padding: 10px 20px;
+
+    }
+}

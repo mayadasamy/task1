@@ -31,19 +31,22 @@ const Product = (props) => {
               Details
             </Link>
           ) : (
-            <Link className="card_button" to={`/`}>
+            <Link className="card_button" to={`/product`}>
               Back
             </Link>
           )}
           </div>
       
 
-
-
+         
       
     </>
+    
+   
   )
+
 }
+
 
 export default Product
  
